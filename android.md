@@ -278,6 +278,15 @@ https://codelabs.developers.google.com/codelabs/kotlin-android-training-internet
 
 - 画像読み込みライブラリ Glide の説明
 
+# 09.1 Repository
+
+https://codelabs.developers.google.com/codelabs/kotlin-android-training-repository/#9
+
+- Roomにキャッシュを保存する
+- RepositoryはネットワークやDBのデータをドメインモデルに変換して取り出すAPIを提供する
+  - `fetchVideos()`は`asDomainModel()`になったデータを返す
+- VMではDBから直接取り出すのではなく、Repositoryから取り出す
+
 # MVVM
 
 https://speakerdeck.com/star_zero/databindingteshi-xian-surumvvm-architecture?slide=85
